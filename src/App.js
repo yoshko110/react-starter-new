@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <Card />
-      <CardSport></CardSport>
-      <Prodicts></Prodicts>
+      <CardSport />
+      <Prodicts />
 
       <img src={Fencing} width="50%"></img>
     </div>
