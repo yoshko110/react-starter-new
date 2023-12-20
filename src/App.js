@@ -7,17 +7,16 @@ import { swords } from "./ProdictsSwords";
 function App() {
   return (
     <div>
+      <img src={Fencing} width="50%"></img>
       <Card />
       <CardSport />
       <Prodicts />
-
-      <img src={Fencing} width="50%"></img>
     </div>
   );
 }
 function Prodicts() {
   return (
-    <div>
+    <div class="p-3 mb-2 bg-secondary text-white" className="d-flex">
       {swords.map((sword) => (
         <>
           <img src={sword.imgFoto} width="15%" />
